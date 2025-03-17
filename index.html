@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="/Project-News-App/assets/favicon-DWwZoMAN.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News</title>
+    <script type="module" crossorigin src="/Project-News-App/assets/index-BPqgDGVa.js"></script>
+    <link rel="stylesheet" crossorigin href="/Project-News-App/assets/index-B1j7YXxe.css">
+  </head>
+  <body>
+    <main>
+      <h1> NEWS <img src="/Project-News-App/assets/favicon-DWwZoMAN.png" alt="Icon" class="icon"> APP</h1>
+      <section class="news-box">
+        <form>
+          <div>
+            <label for="input-text">Suchbergriff</label>
+            <input type="text" name="input-text" id="input-text" placeholder="Gib deine Suche ein...">
+          </div>
+          <div>
+            <label for="input-sprache">Sprache</label>
+            <select name="input-sprache" id="input-sprache">
+              <option value="de">Deutsch</option>
+              <option value="en">Englisch</option>
+              <option value="es">Spanisch</option>
+              <option value="fr">Französich</option>
+              <option value="it">Italienisch</option>
+              <option value="ru">Russisch</option>
+              <option value="ar">Arabisch</option>
+              <option value="he">Hebräisch</option>
+              <option value="nl">Niederländisch</option>
+              <option value="no">Norwegisch</option>
+              <option value="sv">Schwedisch</option>
+              <option value="pt">Portogisich</option>
+              <option value="chn">Chinesisch</option>
+            </select>
+            </div>
+            <div>
+              <label for="input-sort">Sortieren nach</label>
+              <select name="input-sort" id="input-sort">
+                <option value="relevancy">Relevanz</option>
+                <option value="popularity">Popularität</option>
+                <option value="publishedAt">Neueste zuerst</option>    
+                </select>     
+              </div>
+              <div>
+
+                <a type="submit" id="search-btn">Suchen</a>
+              </div>
+            </div>
+        </form>
+      </section>
+      <div class="output"></div>
+    </main>
+
+
+
+  </body>
+</html>
